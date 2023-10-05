@@ -1,0 +1,95 @@
+/* ตั้งค่าสไตล์เริ่มต้น */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    text-align: center;
+    color:black;
+    padding: 20px;
+    margin: 0;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+table th {
+    background-color: rgb(160, 77, 255);
+    color: white;
+}
+/* สไตล์สำหรับแถวที่คุณต้องการเปลี่ยนสีพื้นหลังเป็นสีม่วง */
+table tr:nth-child(7) {
+    background-color: rgb(160, 77, 255);
+    color: white;
+}
+table tr:nth-child(9) {
+    background-color: rgb(160, 77, 255);
+    color: white;
+}
+
+
+/* ลดขนาดแถวของตาราง */
+table tr {
+    height: 30px; /* ปรับความสูงตามที่คุณต้องการ */
+}
+
+/* ปรับขนาดตัวอักษรในตาราง */
+table th, table td {
+    font-size: 16px; /* ปรับขนาดตัวอักษรตามที่คุณต้องการ */
+}
+
+/* ลดระยะห่างระหว่างแถวของตาราง */
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 15px auto;
+}
+
+/* กำหนดสีขอบของตาราง */
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+/* สไตล์สำหรับแถวหัวในตาราง */
+table th {
+    background-color: #7403AB;
+    color: white;
+}
+/* ลบเส้นขอบด้านบนและด้านข้างของตาราง */
+table, th, td {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+
+
+
+/* สไตล์สำหรับตารางราคา */
+#priceA, #priceB, #priceC, 
+#priceD, #priceE, #priceF, 
+#priceG, #priceH, #priceI, 
+#priceJ, #priceK, #priceL,
+#priceM, #priceN, #priceO,
+#priceP, #priceQ, #priceR,
+#priceS, #priceT, #priceU,
+#priceV, #priceW, #priceX {
+    font-weight: bold;
+    font-size: 20px;
+    color: #007BFF;
+}
