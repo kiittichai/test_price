@@ -9,14 +9,14 @@ body {
 div {
     text-align: center;
     color:black;
-    padding: 20px;
+    padding: 35px;
     margin: 0;
 }
 
 table {
-    margin: 20px auto;
+    margin: 30px auto;
     border-collapse: collapse;
-    width: 80%;
+    width: 50%;
 }
 
 table, th, td {
@@ -66,7 +66,7 @@ table, th, td {
 
 /* สไตล์สำหรับแถวหัวในตาราง */
 table th {
-    background-color: #7403AB;
+    background-color: rgb(160, 77, 255);
     color: white;
 }
 /* ลบเส้นขอบด้านบนและด้านข้างของตาราง */
